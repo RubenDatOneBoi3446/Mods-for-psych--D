@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "RIGHT",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "Shocked",
+			"fps": 24,
+			"name": "SHOCKED",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				19,
+				0
+			],
+			"anim": "Stand",
+			"fps": 24,
+			"name": "STAND",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/garrett_algebra",
+	"position": [
+		-150,
+		10
+	],
+	"healthicon": "garrett",
+	"flip_x": false,
+	"healthbar_colors": [
+		253,
+		253,
+		63
+	],
+	"camera_position": [
+		-100,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}
