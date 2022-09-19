@@ -8,7 +8,7 @@ function onCreate()
     cy = -500 + hy;
 
     makeLuaSprite('background', 'ohungi skybox', cx, cy)
-    --addGlitchEffect('background', 2.2)
+    addGlitchEffect('background', 2.2)
     setProperty('background.offset.x', hx);
     setProperty('background.offset.y', hy);
     setProperty('background.antialiasing', true);

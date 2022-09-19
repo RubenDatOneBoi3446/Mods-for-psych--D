@@ -1,6 +1,7 @@
 function onCreate()
 	makeLuaSprite('galaxy', 'galaxy', -1475, -775);
 	scaleObject('galaxy', 1.75, 1.75);
+    addGlitchEffect('galaxy', 2,2)
 	addLuaSprite('galaxy', false)
 end
 
